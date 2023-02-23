@@ -6,43 +6,38 @@ namespace Bank;
 
 public class CSVReader
 {
-    
-    public List<Transaction> GetTransactionDetails()
-    {
-        List<User> usersList = new List<User>(); 
+	public Budget GetTransactionDetails()
+	{
+		List<User> usersList = new List<User>();
 
-        string path = @"C:\Users\michar\OneDrive - Softwire Technology Limited\Desktop\Transactions2014.csv";
+		string path = "Transactions2014.csv";
 
-        string[] lines = System.IO.File.ReadAllLines(path);
+		string[] lines = System.IO.File.ReadAllLines(path);
 
-        List<Transaction> allTransactions = new List<Transaction>();
-        foreach (string line in lines.Skip(1))
-        {
-            string[] rows = line.Split(',');
-            string date = rows[0];
-            User ToUser = new User(Convert.ToString(rows[1]));
-            User FromUser = new User(Convert.ToString(rows[2]));
-            string details = rows[3];
-            decimal amount = decimal.Parse(rows[4]);
+		List<Transaction> allTransactions = new List<Transaction>();
+		foreach (string line in lines.Skip(1))
+		{
+			string[] rows = line.Split(',');
+			string date = rows[0];
+			User ToUser = new User(Convert.ToString(rows[1]));
+			User FromUser = new User(Convert.ToString(rows[2]));
+			string details = rows[3];
+			decimal amount = decimal.Parse(rows[4]);
 
-            Transaction uniqueTransaction = new Transaction(date, ToUser, FromUser, details, amount);
-            allTransactions.Add(uniqueTransaction);
+			Transaction uniqueTransaction = new Transaction(date, ToUser, FromUser, details, amount);
+			allTransactions.Add(uniqueTransaction);
 
-            //Example of a Transaction: [Date, {Name: (string) name }, {Name:name}, Narrative, Amount  ]
+			//Example of a Transaction: [Date, {Name: (string) name }, {Name:name}, Narrative, Amount  ]
 
-            if (!usersList.Any(a => a.Name == uniqueTransaction.To.Name))
-                usersList.Add(uniqueTransaction.To);
-            
-        //Example of UsersList: [{Name: name}, {Name: name}, {Name: name}]
+			if (!usersList.Any(a => a.Name == uniqueTransaction.To.Name))
+				usersList.Add(uniqueTransaction.To);
 
-        }
-        foreach (var item in usersList)
-        {
-            Console.WriteLine(item.Name);    
-        }
-        
-        return allTransactions;
-    }
+			//Example of UsersList: [{Name: name}, {Name: name}, {Name: name}]
+
+		}
+		
+			return new Budget(usersList, allTransactions);
+	}
 }
 
 

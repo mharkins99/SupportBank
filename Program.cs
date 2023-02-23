@@ -6,8 +6,8 @@
 //Method: ListAll
 //Method: ListAccount(takes an User instance)* {loops through transactions and Console.WriteLines any transaction with their name in either to/from }
 //CONSTRUCTOR (*string for the excel filepath*) {
-    //Run all the stuff you've got in CSVReader
-    // }
+//Run all the stuff you've got in CSVReader
+// }
 
 //Program.CS:
 //Budget Budget2014 = new Budget(*filepath*)
@@ -15,14 +15,28 @@
 
 //Class User
 
-//Class Transaction 
+//Class Transaction
 
+CSVReader csvReader = new CSVReader();
 
-CSVReader csvReader = new CSVReader(); 
-List<Transaction> transactions = csvReader.GetTransactionDetails();
+Budget Budget2014 = csvReader.GetTransactionDetails();
+
+Console.WriteLine("See all users (1) \n all transactions for individual user (2)");
+string userOption = Console.ReadLine();
+
+if (userOption == "1")
+{
+	Budget2014.CalculateBalanceAllUsers();
+}
+else if (userOption == "2")
+{
+    Budget2014.GetPersonalTransactions();
+}
+
+else { Console.WriteLine("ERROR!"); }
 
 // foreach (Transaction transaction in transactions) {
-        
+
 // Console.WriteLine(transaction.Amount);
 //}
 
