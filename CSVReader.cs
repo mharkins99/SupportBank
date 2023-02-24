@@ -1,4 +1,6 @@
 namespace Bank;
+using NLog;
+
 
 //class of yearlyBudget -
 // list of all transactions and all accounts
@@ -6,23 +8,39 @@ namespace Bank;
 
 public class CSVReader
 {
-	public Budget GetTransactionDetails()
+	private static readonly ILogger Logger = LogManager.GetCurrentClassLogger();
+	
+	public Budget GetTransactionDetails(string path)
 	{
+		
 		List<User> usersList = new List<User>();
-
-		string path = "Transactions2014.csv";
 
 		string[] lines = System.IO.File.ReadAllLines(path);
 
 		List<Transaction> allTransactions = new List<Transaction>();
+        int rowCounter = 1;
 		foreach (string line in lines.Skip(1))
 		{
+            rowCounter ++; 
 			string[] rows = line.Split(',');
-			string date = rows[0];
+            DateTime date = new DateTime(); 
+            try {
+            date = DateTime.Parse(rows[0]);
+            }
+            catch (System.FormatException exception) {
+                Console.WriteLine($"Error on row {rowCounter}. The date provided is not in the correct format");
+                throw exception;
+            }
 			User ToUser = new User(Convert.ToString(rows[1]));
 			User FromUser = new User(Convert.ToString(rows[2]));
 			string details = rows[3];
-			decimal amount = decimal.Parse(rows[4]);
+            decimal amount; 
+            try {
+			 amount = decimal.Parse(rows[4]);
+            } catch (System.FormatException exception) {
+                Console.WriteLine($"Error on row {rowCounter}!. The amount must be entered as a decimal number");
+                throw exception;
+           } 
 
 			Transaction uniqueTransaction = new Transaction(date, ToUser, FromUser, details, amount);
 			allTransactions.Add(uniqueTransaction);

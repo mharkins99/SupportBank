@@ -1,4 +1,13 @@
 ﻿using Bank;
+using NLog;
+using NLog.Config;
+using NLog.Targets;
+
+var config = new LoggingConfiguration();
+var target = new FileTarget { FileName = @"C:\Work\Logs\SupportBank.log", Layout = @"${longdate} ${level} - ${logger}: ${message}" };
+config.AddTarget("File Logger", target);
+config.LoggingRules.Add(new LoggingRule("*", LogLevel.Debug, target));
+LogManager.Configuration = config;
 
 //Class Budget: 
 //List<Transactions> 
@@ -19,18 +28,20 @@
 
 CSVReader csvReader = new CSVReader();
 
-Budget Budget2014 = csvReader.GetTransactionDetails();
+Budget Budget2014 = csvReader.GetTransactionDetails("transactions2014.csv");
+
+Budget Budget2015 = csvReader.GetTransactionDetails("Transactions2015.csv");
 
 Console.WriteLine("See all users (1) \n all transactions for individual user (2)");
 string userOption = Console.ReadLine();
 
 if (userOption == "1")
 {
-	Budget2014.CalculateBalanceAllUsers();
+	Budget2015.CalculateBalanceAllUsers();
 }
 else if (userOption == "2")
 {
-    Budget2014.GetPersonalTransactions();
+    Budget2015.GetPersonalTransactions();
 }
 
 else { Console.WriteLine("ERROR!"); }

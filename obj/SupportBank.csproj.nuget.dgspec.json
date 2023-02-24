@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Training\\Bank\\SupportBank\\SupportBank.csproj": {}
+    "c:\\Training\\Bank\\SupportBank\\SupportBank.csproj": {}
   },
   "projects": {
-    "C:\\Training\\Bank\\SupportBank\\SupportBank.csproj": {
+    "c:\\Training\\Bank\\SupportBank\\SupportBank.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Training\\Bank\\SupportBank\\SupportBank.csproj",
+        "projectUniqueName": "c:\\Training\\Bank\\SupportBank\\SupportBank.csproj",
         "projectName": "SupportBank",
-        "projectPath": "C:\\Training\\Bank\\SupportBank\\SupportBank.csproj",
+        "projectPath": "c:\\Training\\Bank\\SupportBank\\SupportBank.csproj",
         "packagesPath": "C:\\Users\\patrob\\.nuget\\packages\\",
-        "outputPath": "C:\\Training\\Bank\\SupportBank\\obj\\",
+        "outputPath": "c:\\Training\\Bank\\SupportBank\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\patrob\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "NLog": {
+              "target": "Package",
+              "version": "[5.1.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

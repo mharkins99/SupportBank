@@ -36,24 +36,28 @@ public class Budget
 		}
 	}
 
-    public void GetPersonalTransactions()
-    {
-        int transactionCount = 0 ;
-        Console.WriteLine("Select a user to view transactions");
-        string response = Console.ReadLine(); 
-        if (UsersList.Any (a => a.Name == response)) {
-            foreach (var transaction in TransactionsList)
-            {
-                if(response == transaction.To.Name || response == transaction.From.Name) {
-                    transactionCount += 1;
-                    Console.WriteLine($"#{transactionCount}: Date: {transaction.Date} From: {transaction.From.Name} To: {transaction.To.Name} Details: {transaction.Details} Amount: {transaction.Amount}");
-                }
-            }
-        } else {
-            Console.WriteLine("Error - no user found");
+	public void GetPersonalTransactions()
+	{
+		int transactionCount = 0;
+		Console.WriteLine("Select a user to view transactions");
+		string response = Console.ReadLine();
+		if (UsersList.Any(a => a.Name == response))
+		{
+			foreach (var transaction in TransactionsList)
+			{
+				if (response == transaction.To.Name || response == transaction.From.Name)
+				{
+					transactionCount += 1;
+					Console.WriteLine($"#{transactionCount}: Date: {transaction.Date} From: {transaction.From.Name} To: {transaction.To.Name} Details: {transaction.Details} Amount: {transaction.Amount}");
+				}
+			}
+		}
+		else
+		{
+			Console.WriteLine("Error - no user found");
 
-        }
-    }
+		}
+	}
 }
 
 // 			if (!usersList.Any(a => a.Name == uniqueTransaction.To.Name))
