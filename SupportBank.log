@@ -1,1 +1,533 @@
 2023-02-24 11:16:31.7132 Fatal - Bank.CSVReader: Fatal error:
+2023-02-24 11:23:00.9278 Fatal - Bank.CSVReader: Fatal error: System.FormatException: The input string 'BREAK' was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, ReadOnlySpan`1 value, TypeCode type)
+   at System.Decimal.Parse(String s)
+   at Bank.CSVReader.GetTransactionDetails(String path) in C:\Training\Bank\SupportBank\CSVReader.cs:line 42
+2023-02-24 11:26:46.2061 Fatal - Bank.CSVReader: Fatal error: The amount must be entered as a decimal number
+2023-02-24 11:27:07.0215 Fatal - Bank.CSVReader: Fatal error on row 27!.: The amount must be entered as a decimal number
+2023-02-24 11:32:50.2766 Error - Bank.CSVReader: Fatal error on row 27!.: The amount must be entered as a decimal number
+2023-02-24 11:36:08.0846 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Info - Bank.CSVReader: test
+2023-02-24 11:36:08.1047 Error - Bank.CSVReader: Fatal error on row 27!.: The amount must be entered as a decimal number
+2023-02-24 11:38:09.0644 Info - Bank.CSVReader: Line 149 completed successfully
+2023-02-24 11:38:09.0895 Error - Bank.CSVReader: Fatal error on row 27!.: The amount must be entered as a decimal number
+2023-02-24 11:38:42.1957 Info - Bank.CSVReader: Line 2 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 3 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 4 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 5 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 6 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 7 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 8 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 9 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 10 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 11 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 12 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 13 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 14 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 15 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 16 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 17 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 18 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 19 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 20 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 21 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 22 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 23 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 24 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 25 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 26 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 27 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 28 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 29 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 30 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 31 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 32 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 33 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 34 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 35 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 36 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 37 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 38 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 39 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 40 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 41 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 42 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 43 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 44 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 45 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 46 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 47 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 48 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 49 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 50 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 51 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 52 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 53 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 54 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 55 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 56 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 57 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 58 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 59 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 60 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 61 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 62 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 63 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 64 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 65 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 66 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 67 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 68 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 69 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 70 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 71 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 72 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 73 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 74 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 75 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 76 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 77 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 78 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 79 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 80 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 81 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 82 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 83 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 84 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 85 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 86 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 87 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 88 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 89 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 90 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 91 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 92 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 93 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 94 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 95 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 96 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 97 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 98 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 99 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 100 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 101 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 102 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 103 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 104 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 105 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 106 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 107 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 108 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 109 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 110 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 111 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 112 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 113 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 114 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 115 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 116 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 117 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 118 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 119 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 120 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 121 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 122 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 123 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 124 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 125 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 126 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 127 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 128 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 129 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 130 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 131 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 132 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 133 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 134 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 135 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 136 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 137 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 138 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 139 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 140 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 141 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 142 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 143 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 144 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 145 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 146 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 147 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 148 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 149 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 2 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 3 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 4 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 5 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 6 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 7 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 8 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 9 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 10 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 11 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 12 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 13 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 14 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 15 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 16 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 17 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 18 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 19 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 20 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 21 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 22 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 23 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 24 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 25 completed successfully
+2023-02-24 11:38:42.2168 Info - Bank.CSVReader: Line 26 completed successfully
+2023-02-24 11:38:42.2168 Error - Bank.CSVReader: Fatal error on row 27!.: The amount must be entered as a decimal number
+2023-02-24 11:40:51.1925 Info - Bank.CSVReader: Line 2 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 3 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 4 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 5 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 6 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 7 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 8 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 9 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 10 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 11 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 12 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 13 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 14 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 15 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 16 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 17 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 18 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 19 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 20 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 21 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 22 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 23 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 24 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 25 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 26 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 27 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 28 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 29 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 30 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 31 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 32 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 33 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 34 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 35 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 36 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 37 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 38 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 39 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 40 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 41 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 42 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 43 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 44 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 45 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 46 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 47 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 48 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 49 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 50 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 51 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 52 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 53 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 54 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 55 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 56 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 57 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 58 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 59 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 60 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 61 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 62 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 63 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 64 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 65 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 66 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 67 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 68 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 69 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 70 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 71 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 72 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 73 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 74 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 75 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 76 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 77 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 78 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 79 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 80 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 81 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 82 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 83 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 84 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 85 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 86 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 87 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 88 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 89 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 90 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 91 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 92 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 93 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 94 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 95 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 96 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 97 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 98 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 99 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 100 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 101 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 102 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 103 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 104 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 105 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 106 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 107 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 108 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 109 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 110 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 111 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 112 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 113 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 114 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 115 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 116 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 117 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 118 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 119 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 120 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 121 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 122 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 123 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 124 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 125 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 126 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 127 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 128 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 129 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 130 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 131 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 132 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 133 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 134 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 135 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 136 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 137 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 138 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 139 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 140 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 141 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 142 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 143 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 144 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 145 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 146 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 147 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 148 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 149 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 2 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 3 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 4 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 5 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 6 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 7 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 8 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 9 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 10 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 11 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 12 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 13 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 14 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 15 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 16 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 17 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 18 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 19 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 20 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 21 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 22 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 23 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 24 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 25 completed successfully
+2023-02-24 11:40:51.2133 Info - Bank.CSVReader: Line 26 completed successfully
+2023-02-24 11:40:51.2133 Error - Bank.CSVReader: Fatal error on row 27!.: The amount must be entered as a decimal number

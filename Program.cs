@@ -28,23 +28,25 @@ LogManager.Configuration = config;
 
 CSVReader csvReader = new CSVReader();
 
-Budget Budget2014 = csvReader.GetTransactionDetails("transactions2014.csv");
+csvReader.getJSONTransactionDetails("transactions2013.json");
 
-Budget Budget2015 = csvReader.GetTransactionDetails("Transactions2015.csv");
+// Budget Budget2014 = csvReader.GetTransactionDetails("transactions2014.csv");
 
-Console.WriteLine("See all users (1) \n all transactions for individual user (2)");
-string userOption = Console.ReadLine();
+// Budget Budget2015 = csvReader.GetTransactionDetails("Transactions2015.csv");
 
-if (userOption == "1")
-{
-	Budget2015.CalculateBalanceAllUsers();
-}
-else if (userOption == "2")
-{
-    Budget2015.GetPersonalTransactions();
-}
+// Console.WriteLine("See all users (1) \n all transactions for individual user (2)");
+// string userOption = Console.ReadLine();
 
-else { Console.WriteLine("ERROR!"); }
+// if (userOption == "1")
+// {
+// 	Budget2015.CalculateBalanceAllUsers();
+// }
+// else if (userOption == "2")
+// {
+//     Budget2015.GetPersonalTransactions();
+// }
+
+// else { Console.WriteLine("ERROR!"); }
 
 // foreach (Transaction transaction in transactions) {
 

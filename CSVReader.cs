@@ -1,5 +1,7 @@
 namespace Bank;
 using NLog;
+using System.Text.Json;
+using Newtonsoft.Json;
 
 
 //class of yearlyBudget -
@@ -37,34 +39,41 @@ public class CSVReader
 			User FromUser = new User(Convert.ToString(rows[2]));
 			string details = rows[3];
 			decimal amount;
+
 			try
 			{
 				amount = decimal.Parse(rows[4]);
 			}
 			catch (System.FormatException exception)
 			{
-				Logger.Fatal("Fatal error:");
+				Logger.Error($"Fatal error on row {rowCounter}!.: The amount must be entered as a decimal number");
 				Console.WriteLine($"Error on row {rowCounter}!. The amount must be entered as a decimal number");
 				throw exception;
 			}
-
 			Transaction uniqueTransaction = new Transaction(date, ToUser, FromUser, details, amount);
 			allTransactions.Add(uniqueTransaction);
 
 			//Example of a Transaction: [Date, {Name: (string) name }, {Name:name}, Narrative, Amount  ]
 
-			if (!usersList.Any(a => a.Name == uniqueTransaction.To.Name))
-				usersList.Add(uniqueTransaction.To);
+			if (!usersList.Any(a => a.Name == uniqueTransaction.ToAccount.Name))
+				usersList.Add(uniqueTransaction.ToAccount);
 
 			//Example of UsersList: [{Name: name}, {Name: name}, {Name: name}]
-
+			Logger.Info($"Line {rowCounter} completed successfully");
 		}
 
 		return new Budget(usersList, allTransactions);
 	}
+
+	public void getJSONTransactionDetails(string path)
+	{
+		string lines = System.IO.File.ReadAllText(path);
+		
+			var jsonData = JsonConvert.DeserializeObject<List<Transaction>>(lines);
+			Console.WriteLine(jsonData);
+	
+	}
 }
-
-
 
 //Pairing transactions with users for ListAll Method; 
 //We have two lists - a <list>Transactions and a list<Accounts> 

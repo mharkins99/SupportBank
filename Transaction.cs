@@ -2,9 +2,9 @@ namespace Bank;
 public class Transaction
 {
 	public DateTime Date { get; set; }
-	public User From { get; set; }
-	public User To { get; set; }
-	public string Details { get; set; }
+	public User FromAccount { get; set; }
+	public User ToAccount { get; set; }
+	public string Narrative { get; set; }
 	public decimal Amount { get; set; }
 
 //constructor
@@ -13,9 +13,9 @@ public class Transaction
 	//capitals indicate data fields/properties
 	{
 		Date = date;
-		From = from;
-		To = to;
-		Details = details;
+		FromAccount = from;
+		ToAccount = to;
+		Narrative = details;
 		Amount = amount;
 	}
 

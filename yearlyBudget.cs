@@ -22,12 +22,12 @@ public class Budget
 
 			foreach (Transaction transaction in TransactionsList)
 			{
-				if (user.Name == transaction.From.Name)
+				if (user.Name == transaction.FromAccount.Name)
 				{
 					balance += transaction.Amount;
 				}
 
-				if (user.Name == transaction.To.Name)
+				if (user.Name == transaction.ToAccount.Name)
 				{
 					balance -= transaction.Amount;
 				}
@@ -45,10 +45,10 @@ public class Budget
 		{
 			foreach (var transaction in TransactionsList)
 			{
-				if (response == transaction.To.Name || response == transaction.From.Name)
+				if (response == transaction.ToAccount.Name || response == transaction.FromAccount.Name)
 				{
 					transactionCount += 1;
-					Console.WriteLine($"#{transactionCount}: Date: {transaction.Date} From: {transaction.From.Name} To: {transaction.To.Name} Details: {transaction.Details} Amount: {transaction.Amount}");
+					Console.WriteLine($"#{transactionCount}: Date: {transaction.Date} From: {transaction.FromAccount.Name} To: {transaction.ToAccount.Name} Details: {transaction.Narrative} Amount: {transaction.Amount}");
 				}
 			}
 		}
