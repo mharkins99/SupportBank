@@ -69,8 +69,12 @@ public class CSVReader
 	{
 		string lines = System.IO.File.ReadAllText(path);
 		
-			var jsonData = JsonConvert.DeserializeObject<List<Transaction>>(lines);
-			Console.WriteLine(jsonData);
+			var jsonData = JsonConvert.DeserializeObject<List<Transactionjson>>(lines);
+			foreach(var transaction in jsonData) {
+				Console.WriteLine(transaction.Amount);
+			}
+			
+
 	
 	}
 }
