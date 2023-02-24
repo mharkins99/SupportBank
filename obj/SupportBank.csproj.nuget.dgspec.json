@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Training\\Bank\\SupportBank\\SupportBank.csproj": {}
+    "C:\\Training\\Bank\\SupportBank\\SupportBank.csproj": {}
   },
   "projects": {
-    "c:\\Training\\Bank\\SupportBank\\SupportBank.csproj": {
+    "C:\\Training\\Bank\\SupportBank\\SupportBank.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Training\\Bank\\SupportBank\\SupportBank.csproj",
+        "projectUniqueName": "C:\\Training\\Bank\\SupportBank\\SupportBank.csproj",
         "projectName": "SupportBank",
-        "projectPath": "c:\\Training\\Bank\\SupportBank\\SupportBank.csproj",
+        "projectPath": "C:\\Training\\Bank\\SupportBank\\SupportBank.csproj",
         "packagesPath": "C:\\Users\\patrob\\.nuget\\packages\\",
-        "outputPath": "c:\\Training\\Bank\\SupportBank\\obj\\",
+        "outputPath": "C:\\Training\\Bank\\SupportBank\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\patrob\\AppData\\Roaming\\NuGet\\NuGet.Config"
